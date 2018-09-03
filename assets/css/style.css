@@ -263,3 +263,57 @@ footer {
     margin: 20px;
     height: 300px; width: 600px;
 }
+
+@media (max-width:980px) {
+    #aboutme {
+        margin-left: 10px;
+    }
+
+    /*can see all pictures but have 3 per line instead of 2*/
+    #portfoliopara {
+        margin-left: 5%;
+        float: left;
+    }
+
+    #contactpage {
+        margin-left: 5%;
+    }
+}
+
+@media (max-width:768px) {
+    #contactpage{
+        width:50%;
+    }
+
+    #aboutme {
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+    #fixed-name{
+        width: 50%;
+    }
+}
+
+@media (max-width: 640px) {
+    /*can't get photos to move to own line */
+    #portfoliopara{
+        margin-right: 5px;
+        margin-left: 5px;
+        width: 100%;
+    }
+
+     #aboutme{
+        float: left;
+    }
+
+    /* cant get pic to go to own line */
+    #profpic {
+        float: left;
+    }
+
+    #contactpage{
+        float: left;
+        width: 100%;
+    }
+}
